@@ -1,0 +1,191 @@
+/* Globals style */
+.auth {
+  font-family: adobe-caslon-pro, serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.fondo {
+  filter: blur(0.35rem);
+  width: 867px;
+  height: 1024px;
+  position: absolute;
+}
+
+.welcome {
+  width: 867px;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-items: center;
+  color: #fff;
+}
+.titleWelcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 672px;
+  height: 372px;
+  margin: 0 0 396px;
+  padding: 17px 38px 12px 37px;
+  mix-blend-mode: multiply;
+  background-color: #696969;
+}
+.Rectangle-1 {
+  width: 77px;
+  height: 93px;
+  padding-left: 20px;
+  background-color: #ffd700;
+}
+.Bienvenido-a-Shop-Intelligence {
+  width: 487px;
+  height: 172px;
+  margin: 10px 55px;
+  font-size: 52px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -1.44px;
+  text-align: center;
+}
+.Una-Abarrotera-con-todo-lo-nuevo-de-la-tecnologia-para-una-mejor-experiencia {
+  width: 597px;
+  height: 84px;
+  margin: 80px 0 0;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+  text-align: center;
+  color: #fff;
+}
+.socialMedia {
+  height: 40px;
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.socialMedia > .social {
+  width: 55px;
+  height: 48px;
+  mix-blend-mode: multiply;
+  margin-left: 25px;
+}
+
+.login {
+  width: 573px;
+  height: 1024px;
+  padding: 23px 16px 104px 40px;
+  background-color: #ffd700;
+  position: relative;
+}
+.div-register > .mb-3 {
+  width: 191px;
+  height: 31px;
+  margin: 0 0 51px 326px;
+  padding: 3px 18px 3px 19px;
+  border-radius: 50px;
+  background-color: #fee663;
+  color: #000;
+}
+.Container {
+  width: 493px;
+  height: 815px;
+  margin: 51px 24px 0 0;
+  padding: 28px 43px 161px 16px;
+  border-radius: 98px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* box-shadow: 10px 10px 15px #77acf2; */
+}
+.logo {
+  padding: 10px;
+  height: 119px;
+  width: 231px;
+}
+.title {
+  font-size: 24px;
+}
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user > .mb-3 {
+  width: 407px;
+  height: 50px;
+  margin: 3.5px 0 27.5px 27px;
+  background-color: rgba(225, 225, 225, 0.45);
+}
+
+.passReset {
+  width: 257px;
+  height: 29px;
+  margin: 82px 78px 16px 99px;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  text-align: center;
+  opacity: 0.5;
+}
+.send-info {
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send-info > .mb-3 {
+  width: 264px;
+  height: 57px;
+  margin: 16px 74px 0 96px;
+  padding: 12px 7px 20px 12px;
+  border-radius: 50px;
+  background-color: #ffd700;
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 10px #577FB3; */
+}
+/* End Globals style */
+/* monile style */
+@media (max-width: 550px) {
+  .Container {
+    background-color: #f5efef;
+    height: 28rem;
+    width: 20rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: 7px 7px 7px #767C77; */
+  }
+  .user > .mb-3 {
+    height: auto;
+    width: 12.5rem;
+    /* box-shadow: 5px 5px 5px #7e837f; */
+  }
+}

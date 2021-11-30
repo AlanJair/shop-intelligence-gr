@@ -1,0 +1,138 @@
+.homeAdmin {
+  min-height: 99.9vh !important;
+  min-width: 99.9vh !important;
+  font-family: adobe-caslon-pro, serif;
+  background-image: url("../../images/fondoadmin.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 99.9% 99.9%;
+
+}
+.logo {
+  height: 5rem !important;
+  margin-bottom: 3rem;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.col-button-close {
+  display: flex;
+  justify-content: end !important;
+  align-items: center !important;
+}
+.button-close {
+  background-color: #fee663 !important;
+  color: #000000 !important;
+  border-radius: 2rem !important;
+  border-color: #fee663 !important;
+}
+
+.title-casher,
+.title-client,
+.title-product {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.3rem !important;
+}
+
+.img-casher,
+.img-cliente,
+.img-producto {
+  height: 10.38rem !important;
+  padding: 1rem;
+}
+.button-casher,
+.button-client,
+.button-product {
+  height: 2.5rem !important;
+  width: 10rem !important;
+  background-color: #d1d1d1 !important;
+  border-color: #d1d1d1 !important;
+  color: #000000 !important;
+}
+@media (max-width: 75rem) {
+  .logo {
+    height: 3rem !important;
+  }
+}
+@media (max-width: 56.25rem) {
+  .logo {
+    height: 5.3rem !important;
+  }
+  h1 {
+    font-size: 1.4rem !important;
+  }
+  .img-casher,
+  .img-cliente,
+  .img-producto {
+    height: 9rem !important;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .button-close {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 2rem !important;
+    font-size: 1.3rem !important;
+  }
+  .justify-content-md-center {
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+  .button-casher,
+  .button-client,
+  .button-product {
+    height: 2.4rem !important;
+    width: 7rem !important;
+  }
+}
+@media (max-width: 47.938rem) {
+  .header {
+    height: 7.3rem;
+  }
+  .logo {
+    display: none;
+  }
+  h1 {
+    font-size: 1.541rem !important;
+  }
+  .img-casher,
+  .img-cliente,
+  .img-producto {
+    height: 8rem !important;
+    padding: 1rem;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .title > h1 {
+    color: #ffffff;
+  }
+  .button-close {
+    height: 2rem;
+    width: 15rem;
+    border-radius: 2rem !important;
+    font-size: 0.8rem !important;
+  }
+  .justify-content-md-center {
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+  .button-casher,
+  .button-client,
+  .button-product {
+    height: 2.5rem !important;
+    width: 7rem !important;
+  }
+}
